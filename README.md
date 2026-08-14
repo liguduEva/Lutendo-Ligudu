@@ -1,2 +1,0 @@
-# Lutendo-Ligudu
-Eva ligudu 
