@@ -1,32 +1,39 @@
 # Sweet Crumbs Pops Bakery
 
-## About the website
+## About the Website
 
-Sweet Crumbs Pops Bakery is a small bakery website I created to showcase some of the treats I make.
+Sweet Crumbs Pops Bakery is a small bakery website that I created to showcase some of the baked goods I make. The website is designed to be simple, welcoming and easy to use.
 
-The bakery offers cakes, cupcakes, cake pops, whole breads and sourdough bread. I wanted the website to have a simple and welcoming look that matches the feeling of a small homemade bakery.
+The bakery offers cakes, cupcakes, whole breads, cake pops and sourdough bread.
 
-## Pages
+## Website Pages
 
-- Home – introduces Sweet Crumbs Pops Bakery.
-- About – explains how the bakery started.
-- Products – shows the different treats available.
-- Gallery – gives visitors a look at the bakery products.
-- Contact – provides a way for customers to get in touch.
+* **Home** – Introduces Sweet Crumbs Pops Bakery.
+* **About** – Gives information about the bakery and how it started.
+* **Products** – Shows the bakery products with short descriptions.
+* **Gallery** – Displays bakery-related images.
+* **Contact** – Provides information for customers who would like to get in touch or place an order.
 
-## Technologies used
+## Technologies Used
 
-- HTML
-- CSS
+* HTML5
+* CSS3
+* NetBeans
+* Git and GitHub
+
+## CSS and Responsive Design
+
+I used an external `style.css` file to style the website pages. The CSS controls the colours, fonts, spacing, buttons, navigation and product layout.
+
+I also added responsive design using media queries so that the website can adjust to different screen sizes, including computers, tablets and mobile phones.
+
+## Changes Made
+
+I improved the website by adding consistent styling across the pages, improving the navigation, adding hover effects, creating a product layout and making the website more suitable for smaller screens.
 
 ## Author
 
-Sweet Crumbs Pops Bakery
+Lutendo Ligudu
 
+© 2026 Sweet Crumbs Pops Bakery
 
-## References
-
-I used the following websites to help me understand and work with HTML and CSS while creating this website:
-
-- W3Schools – used for learning about HTML and CSS.
-- MDN Web Docs – used to check HTML and CSS information.
