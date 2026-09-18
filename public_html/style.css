@@ -1,32 +1,32 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
+```css
 /* 
-    Created on : 09 Sept 2026, 13:50:04
-    Author     : ligudu_lutendo
+   Sweet Crumbs Pops Bakery
+   Website styling
 */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #fff8f6;
     color: #5a4038;
     text-align: center;
-        letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
     margin: 0;
     padding: 40px 20px;
-        font-size: 16px;
+    font-size: 16px;
 }
 
 h1 {
     color: #c76f8b;
     font-size: 40px;
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 h2 {
     color: #8b5e4b;
     font-size: 28px;
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -34,6 +34,35 @@ p {
     margin: 15px auto;
     font-size: 18px;
     line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #8b5e4b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #c76f8b;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 button {
@@ -51,50 +80,6 @@ button:hover {
     background-color: #8b5e4b;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-bottom: 35px;
-    flex-wrap: wrap;
-}
-
-nav a {
-    color: #8b5e4b;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-nav a:hover {
-    color: #c76f8b;
-    text-decoration: underline;
-}
-
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h1 {
-    letter-spacing: 1px;
-}
-
-h2 {
-    margin-top: 30px;
-}
-
-p {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-h2 {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
 ul {
     max-width: 500px;
     margin: 20px auto;
@@ -105,39 +90,24 @@ ul {
 li {
     margin: 10px 0;
 }
-ul {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 0;
-    list-style-position: inside;
-}
 
-li {
-    margin: 10px 0;
-}
-p {
-    line-height: 1.6;
-}
 .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
     text-align: center;
-    margin: 20px auto;
 }
+
 .product-list li {
     font-size: 17px;
     padding: 5px;
 }
+
 footer p {
     margin: 0;
 }
-a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-a {
-    border-radius: 5px;
-    font-weight: bold;
-}
+
 /* Making the website easier to use on phones and tablets */
 @media (max-width: 768px) {
     body {
@@ -154,24 +124,36 @@ a {
         height: auto;
     }
 
-    a {
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
         padding: 8px 15px;
     }
-}
-/* Keeping the products neat and easy to see */
-.product-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
-/* Making the products fit nicely on a phone */
-@media (max-width: 600px) {
+
     .product-list {
         grid-template-columns: 1fr;
     }
 }
-/* A small effect when someone moves over a link */
-a:hover {
-    opacity: 0.8;
+
+/* Making the products fit nicely on smaller phones */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .product-list {
+        grid-template-columns: 1fr;
+    }
 }
+```
+ 
